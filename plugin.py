@@ -49,5 +49,16 @@ class PackDex(callbacks.Plugin):
 
 Class = PackDex
 
-
+rankTranslate = {
+    "" : 0,
+    "+" : 1,
+    "@" : 2,
+    "@@" : 3
+}
+nameTranslate = [
+    "Guest",
+    "Voice",
+    "Operator",
+    "Bot Admin"
+]
 # vim:set shiftwidth=4 softtabstop=4 expandtab textwidth=79:
